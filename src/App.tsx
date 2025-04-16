@@ -80,10 +80,10 @@ export const App = () => {
             <PureCell.Content>
               <PureCell.Main>
                 <Typography.Text view="primary-medium" tag="p" defaultMargins={false}>
-                  12 визитов в бизнес-залы и рестораны в год
+                  24 визита в бизнес-залы и рестораны в год
                 </Typography.Text>
                 <Typography.Text view="primary-small" color="secondary">
-                  Не чаще 2 раз в месяц
+                  Не чаще 8 раз в месяц
                 </Typography.Text>
               </PureCell.Main>
             </PureCell.Content>
@@ -95,10 +95,10 @@ export const App = () => {
             <PureCell.Content>
               <PureCell.Main>
                 <Typography.Text view="primary-medium" tag="p" defaultMargins={false}>
-                  2 поездки
+                  12 поездок на такси в год
                 </Typography.Text>
-                <Typography.Text view="primary-medium" tag="p" defaultMargins={false}>
-                  на такси в год
+                <Typography.Text view="primary-small" color="secondary">
+                  Не чаще 2 раз в месяц
                 </Typography.Text>
               </PureCell.Main>
             </PureCell.Content>
