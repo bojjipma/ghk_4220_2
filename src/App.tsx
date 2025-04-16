@@ -104,7 +104,6 @@ export const App = () => {
             </PureCell.Content>
           </PureCell>
         </div>
-        <Gap size={96} />
 
         <Typography.Text
           view="primary-medium"
@@ -116,7 +115,7 @@ export const App = () => {
           Подробнее об условиях
         </Typography.Text>
       </div>
-
+      <Gap size={96} />
 
       <div className={appSt.bottomBtn}>
         <ButtonMobile
