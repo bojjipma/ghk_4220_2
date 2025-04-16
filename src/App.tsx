@@ -5,8 +5,8 @@ import { PureCell } from '@alfalab/core-components/pure-cell';
 import { Typography } from '@alfalab/core-components/typography';
 import { useEffect, useState } from 'react';
 import alfaOnly from './assets/alfa_only.png';
-import rest_12 from './assets/rest_12.png';
-import taxi_2 from './assets/taxi.png';
+import rest from './assets/rest.png';
+import taxi from './assets/taxi.png';
 import toggle from './assets/toggle.png';
 import { LS, LSKeys } from './ls';
 import { appSt } from './style.css';
@@ -75,7 +75,7 @@ export const App = () => {
         <div className={appSt.box}>
           <PureCell>
             <PureCell.Graphics verticalAlign="center">
-              <img src={rest_12} width={56} height={56} alt="rubd" />
+              <img src={rest} width={56} height={56} alt="rubd" />
             </PureCell.Graphics>
             <PureCell.Content>
               <PureCell.Main>
@@ -90,7 +90,7 @@ export const App = () => {
           </PureCell>
           <PureCell>
             <PureCell.Graphics verticalAlign="center">
-              <img src={taxi_2} width={56} height={56} alt="rubd" />
+              <img src={taxi} width={56} height={56} alt="rubd" />
             </PureCell.Graphics>
             <PureCell.Content>
               <PureCell.Main>
@@ -128,10 +128,10 @@ export const App = () => {
           hint="Подключить"
         >
           {selected === 'На 1 месяц' ? (
-            '5 000 ₽ в месяц'
+            '10 000 ₽ в месяц'
           ) : (
             <>
-              <s>60 000 ₽</s> <span style={{ color: '#FFD57B' }}>48 000 ₽ на год</span>
+              <s>120 000 ₽</s> <span style={{ color: '#FFD57B' }}>96 000 ₽ на год</span>
             </>
           )}
         </ButtonMobile>
